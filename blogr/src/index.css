@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.btns .btn1{
+  border-radius: 20px;
+  padding:10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: transparent;
+  border: transparent;
+  font-weight: bold;
+}
+.btns .btn1:hover{
+  background-color: #fff;
+  color: #e65a71;
+}
+.btns .btn2{
+  border-radius: 20px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #fff;
+  color: #e65a71;
+  border: transparent;
+  font-weight: bold;
+
+}
+.btns .btn2:hover{
+  background: transparent;
+  color: #fff;
+  border: solid 1px #fff;
+}
+.btns button{
+  color: #fff;
+  font-size: 15px;
+  margin-left: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.btns-sidebar{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.btns-sidebar .btn1{
+  border-radius: 20px;
+  padding:10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: transparent;
+  border: solid 1px #000;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.btns-sidebar .btn2{
+  border-radius: 20px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #e65a71;
+  color: #fff;
+  border: transparent;
+  font-weight: bold;
+  cursor: pointer;
+}

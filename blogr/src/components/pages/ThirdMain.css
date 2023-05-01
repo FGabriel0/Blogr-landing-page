@@ -1,0 +1,36 @@
+.features-bottom{
+    margin-top: 150px;
+}
+.features{
+    display: flex;
+    justify-content: space-around;
+}
+.illustration{
+    display: flex;
+    /* width: 100%; */
+    margin-left: -180px;
+    height: 35rem;
+
+}
+.features-box{
+    margin-top: 85px;
+    text-align: left;
+}
+@media screen and (max-width:790px) {
+    .features{
+        flex-direction: column;
+        text-align: center;  
+        margin: 0;
+    }
+    .illustration{
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        margin: 0;
+    }
+    .features-box{
+        justify-content: center;
+        text-align: center;
+    }
+
+}

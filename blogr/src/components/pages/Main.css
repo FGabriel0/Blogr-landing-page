@@ -1,0 +1,73 @@
+main{
+    text-align: center;
+    padding-top: 6rem;
+    overflow: hidden;
+}
+
+.main-title{
+    color: rgb(14, 14, 93);
+    font-size: 2rem;
+    font-family: 'Overpass', sans-serif;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.first-main-container{
+    display: flex;
+    justify-content:space-evenly;
+    /* padding: 0 1rem; */
+    margin-bottom: 2rem;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.txt-card-title, 
+.state-card-title,
+.laptop-card-txt-title{
+    font-size:20px;
+    text-align: left;
+    font-family: 'Overpass' , sans-serif;
+    color: rgb(9, 9, 70);
+    margin-bottom: 1rem;
+    line-height: 3rem;
+    font-weight: bold;
+}
+
+.txt-card-para,
+.state-card-para,
+.laptop-card-txt-para{
+    font-size: 15px;
+    color: var(--Very-dark-grayish-blue-body-copy);
+    font-family: 'Overpass' , sans-serif;
+    margin-bottom: 1rem;
+    text-align: left;
+    line-height: 2rem;
+}
+
+.img-card-editor{
+    width: 45%;
+    height: 30rem;
+    background: url('../../assets/img/Banner1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: -200px;
+}
+@media screen and (max-width:790px) {
+    .first-main-container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .img-card-editor{
+        width: 90%;
+    }
+    .txt-card{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+
